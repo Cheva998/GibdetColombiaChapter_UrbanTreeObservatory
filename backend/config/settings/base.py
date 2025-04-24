@@ -32,7 +32,6 @@ INSTALLED_APPS = [
     # Third-party apps
     "rest_framework",
     "rest_framework_gis",
-    "drf_spectacular",
     "corsheaders",
     "allauth",
     "allauth.account",
@@ -47,6 +46,8 @@ INSTALLED_APPS = [
     "apps.biodiversity",
     "apps.reports",
     "apps.climate",
+    # Third-party app. This needs to be at the end of the list
+    "drf_spectacular",
 ]
 
 MIDDLEWARE = [
